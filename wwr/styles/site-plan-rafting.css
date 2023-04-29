@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap'); 
+
+h1 {
+    font-family: monoton;
+}
+
+:root {
+    --primary-color: #034732;
+    --secondary-color: #092E86;
+    --accent1-color: #E97A0C;
+    --accent2-color: #FFDE0A;
+
+    --heading-font: 'monoton', display; font-size: 50px;
+    --paragraph-font: 'montserrat', sans-serif;
+    
+    --nav-background-color: #034732;
+    --nav-link-color: #E97A0C;
+    --nav-hover-link-color: #FFDE0A; 
+    --nav-hover-background-color: #092E86;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
+}
+header {
+    padding: 15px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: .8rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+}
+
