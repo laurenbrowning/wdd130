@@ -14,17 +14,20 @@ nav a {
 }
 h1 {
     color: rgb(27, 52, 71);
+    margin-left: 150px;
+    margin-top: 20px;
 }
 main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin-left: 20px;
 }
 p {
-    padding: 0;
+    padding: 15px;
 }
 main {
     max-width: 840px;
@@ -38,10 +41,9 @@ aside {
 aside h2 {
     position: absolute;
     top: 20px;
-    left: 35px;
+    left: 100px;
 }
 aside img {
-    margin-top: 32px;
     width: 200px;
     height: auto;
 }
