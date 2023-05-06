@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap'); 
+:root {
+    --primary-color: #034732;
+    --secondary-color: #092E86;
+    --accent1-color: #E97A0C;
+    --accent2-color: #FFDE0A;
+
+    --heading-font: 'monoton', display; font-size: 50px;
+    --paragraph-font: 'montserrat', sans-serif;
+    
+    --nav-background-color: #034732;
+    --nav-link-color: #E97A0C;
+    --nav-hover-link-color: #FFDE0A; 
+    --nav-hover-background-color: #092E86;
+}
+h1 {
+    font-family: monoton;
+    position: absolute;
+}
+p {
+    color: #034732;
+}
+body {
+    font-family: var(--paragraph-font);
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
+}
+nav a {
+    display: block;
+    text-decoration-line: none;
+}
+.hero {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1230px;
+}
+
+.hero img {
+    position: absolute;
+    width: 100%;
+}
+
+.happy {
+	margin: 5rem auto;
+	background-color: #e97b0c60;
+	padding: 1rem;
+	border: 1px solid rgba(0,0,0,.1);
+    position: absolute;
+}
+.happy img {
+    width: 200px;
+    height: auto;
+    float: right;
+    position: relative;
+    margin: 0 0 15px 15px;
+}
+
