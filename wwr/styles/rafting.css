@@ -13,6 +13,10 @@
     --nav-hover-link-color: #FFDE0A; 
     --nav-hover-background-color: #092E86;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     font-family: monoton;
     position: absolute;
@@ -22,6 +26,7 @@ p {
 }
 body {
     font-family: var(--paragraph-font);
+    background-color: #E97A0C;
     padding: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +41,7 @@ nav a {
     position: relative;
     display: block;
     width: 100%;
-    height: 1230px;
+    height: 1300px;
 }
 
 .hero img {
@@ -46,7 +51,7 @@ nav a {
 
 .happy {
 	margin: 5rem auto;
-	background-color: #e97b0c60;
+	background-color: #e97b0cb0;
 	padding: 1rem;
 	border: 1px solid rgba(0,0,0,.1);
     position: absolute;
@@ -58,4 +63,58 @@ nav a {
     position: relative;
     margin: 0 0 15px 15px;
 }
+.logo {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    border-bottom: solid 10px #FFDE0A;
+    background-color: #034732;
+    width: 100%;
+}
+.logo img {
+    display:flex;
+    padding: 20px;
+    margin-left: 200px;
+    width: 200px;
+    height: auto;
+}
+.navigation {
+    display: flex;
+    text-align: right;
+    font-size: large;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
 
+figure img {
+    max-width: 95%;
+}
+figcaption {
+    color: #034732;
+    font-size: 50%;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.socials {
+    display: flex;
+}
+h1 {
+    margin-left: 300px;
+}
+h2 {
+    text-align: center;
+}
+.history {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+}
