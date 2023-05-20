@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap'); 
+:root {
+    --primary-color: #034732;
+    --secondary-color: #092E86;
+    --accent1-color: #E97A0C;
+    --accent2-color: #FFDE0A;
+
+    --heading-font: 'monoton', display; font-size: 50px;
+    --paragraph-font: 'montserrat', sans-serif;
+    
+    --nav-background-color: #034732;
+    --nav-link-color: #E97A0C;
+    --nav-hover-link-color: #FFDE0A; 
+    --nav-hover-background-color: #092E86;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    border-bottom: solid 10px #FFDE0A;
+    background-color: #034732;
+    width: 100%;
+}
+.logo img {
+    display:flex;
+    padding: 20px;
+    margin-left: 200px;
+    width: 200px;
+    height: auto;
+}
+h1 {
+    font-family: monoton;
+    position: absolute;
+}
+p {
+    color: #034732;
+}
+body {
+    font-family: var(--paragraph-font);
+    background-color: #E97A0C;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
+}
+nav a {
+    display: block;
+    text-decoration-line: none;
+}
+.navigation {
+    display: flex;
+    text-align: right;
+    font-size: large;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+figure img {
+    max-width: 90%;
+    margin-top: 30px;
+}
+figcaption {
+    color: #034732;
+    font-size: 50%;
+    margin: 10px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.socials {
+    display: flex;
+}
+h1 {
+    margin-left: 300px;
+}
+h2, h3 {
+    text-align: center;
+}
+.map {
+    margin: 20px ;
+}
+.contact {
+    font-size: medium;
+    margin: 20px;
+}
+.locate {
+    display: flex;
+    border-bottom: solid 2px #FFDE0A;
+}
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #034732;
+    border-radius: 1rem;
+    background-color: rgba(192, 192, 192, 0.308);
+    display: grid;
+    color: #092E86;
+    font-size: large;
+}
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 1rem;
+    border: 1px solid #034732;
+    border-radius: 1rem;
+    padding: 15px;
+}
+legend {
+    padding: 0.3rem;
+    font-size: large;
+    color: #034732;
+}
+label, input, button, select, textarea {
+    font-family: 'montserrat', sans-serif;
+}
+label {
+    text-align: left;
+    padding-right: 10px;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: medium;
+    width: 80%;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+button {
+    margin: 1rem;
+    background-color: #034732;
+    color: #FFDE0A;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+}
+button:hover {
+    background-color: #092E86;
+}
