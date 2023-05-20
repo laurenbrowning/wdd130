@@ -131,10 +131,17 @@ label {
     text-align: left;
     padding-right: 10px;
 }
-input, select, textarea {
+textarea {
     padding: 0.5rem;
     font-size: medium;
     width: 80%;
+}
+input {
+    padding: 0.5rem;
+    font-size: medium;
+}
+.radio {
+
 }
 input[type="checkbox"] {
     width: 20px;
