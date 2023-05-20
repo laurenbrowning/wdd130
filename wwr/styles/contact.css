@@ -84,7 +84,7 @@ footer {
     display: flex;
 }
 h1 {
-    margin-left: 300px;
+    position: relative;
 }
 h2, h3 {
     text-align: center;
