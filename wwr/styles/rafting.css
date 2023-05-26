@@ -17,10 +17,6 @@
     margin: 0;
     padding: 0;
 }
-h1 {
-    font-family: monoton;
-    position: absolute;
-}
 p {
     color: #034732;
 }
@@ -72,7 +68,7 @@ nav a {
 .logo img {
     display:flex;
     padding: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
     width: 200px;
     height: auto;
 }
@@ -84,7 +80,10 @@ nav a {
     justify-content: space-between;
     align-items: center;
 }
-.grid {
+a:visited {
+   color:blue;
+}
+.grid1 {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
@@ -104,11 +103,9 @@ footer {
 .socials {
     display: flex;
 }
-h1 {
-    margin-left: 300px;
-}
-h2 {
-    text-align: center;
+.title {
+    margin-left: 150px;
+    position: absolute;
 }
 .history {
     display: grid;
@@ -116,4 +113,91 @@ h2 {
     padding: 20px;
     align-items: center;
     justify-items: center;
+}
+h2, h3 {
+    text-align: center;
+}
+.map {
+    margin: 20px;
+}
+.contact {
+    font-size: medium;
+    margin: 20px;
+    margin-top: 2rem;
+}
+.contact1 {
+    font-size: xx-large;
+    margin-top: 20px;
+}
+.locate {
+    display: flex;
+    flex-flow: row;
+    border-bottom: solid 2px #FFDE0A;
+}
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #034732;
+    border-radius: 1rem;
+    background-color: rgba(192, 192, 192, 0.308);
+    display: grid;
+    color: #092E86;
+    font-size: large;
+}
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 1rem;
+    border: 1px solid #034732;
+    border-radius: 1rem;
+    padding: 15px;
+}
+legend {
+    padding: 0.3rem;
+    font-size: large;
+    color: #034732;
+}
+label, input, button, select, textarea {
+    font-family: 'montserrat', sans-serif;
+}
+label {
+    text-align: left;
+    padding-right: 10px;
+}
+textarea {
+    padding: 0.5rem;
+    font-size: medium;
+    width: 80%;
+}
+input {
+    padding: 0.5rem;
+    font-size: medium;
+}
+.radio {
+
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+button {
+    margin: 1rem;
+    background-color: #034732;
+    color: #FFDE0A;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+}
+button:hover {
+    background-color: #092E86;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 75%;
+    margin: 20px;
+    margin-right: 100px;
+    padding-bottom: 20px;
 }
