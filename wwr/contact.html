@@ -28,9 +28,9 @@
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1911.1362553379938!2d-112.04978026865692!3d43.50956965315455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53545bf75332e473%3A0x77a901af4872e920!2s1425%20Higham%20St%2C%20Idaho%20Falls%2C%20ID%2083402!5e0!3m2!1sen!2sus!4v1684601901734!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
             </div>
-            <h1 class="contact1">Rapid Descent Rafting Co</h1>
-                <br>
-               <div class="contact"><p>Address: 1425 Higham St, Idaho Falls, ID 83402
+               <div class="contact">
+                <h1 class="contact1">Rapid Descent Rafting Co</h1>
+                    <p>Address: 1425 Higham St, Idaho Falls, ID 83402
                     <br>
                 Phone: (208) 555-5555
                     <br>
@@ -56,6 +56,7 @@
             </div>
         </section>
         <section>
+            <h2>Get in touch!</h2>
             <form>
                 <fieldset>
                     <legend>Customer info</legend>
@@ -71,23 +72,21 @@
                 <fieldset>
                     <legend>Questions</legend>
                     <div class="form-list">
-                        <label for="purpose">What is the purpose of contacting us today?</label>
-                        <br>
-                        <input type="radio" id="general" name="general" value="general">
+                        <p class="purpose">What is the purpose of contacting us today?</p><br>
+                        <input type="radio" id="general" name="purpose" value="general">
                         <label for="general">general inquiry</label><br>
-                        <input type="radio" id="reservation" name="reservation" value="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
                         <label for="reservation">question about my reservation</label><br>
-                        <input type="radio" id="website" name="website" value="website">
+                        <input type="radio" id="website" name="purpose" value="website">
                         <label for="website">website feedback</label>
-                        </select>
                     </div>
                     <div class="form-item">
                         <label for="help">What can we help you with?</label>
                         <textarea id="help" name="help" rows="4" placeholder="your message here"></textarea>
                     </div>
                     <div class="form-item"> 
-                        <label for="newsletter">Yes, subscribe me to the monthly newsletter!</label>
                         <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Yes, subscribe me to the monthly newsletter!</label>
                     </div>
                 </fieldset>
                 <button type="submit">Submit form</button>
@@ -95,7 +94,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy;2023 | Rapid Descent Rafting Co | *Lauren Browning*</p>
+        <p class="foot">&copy;2023 | Rapid Descent Rafting Co | *Lauren Browning*</p>
         <a href="images/wireframe.jpg">
             <img src="images/wficon.png" alt="wireframe">
         </a>

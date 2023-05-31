@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="home page, wwr site, lauren browning WDD130">
+    <meta name="description" content="home page, rapid descent rafting co. idaho falls white water rafting site, lauren browning WDD130">
     <meta name="author" content="Lauren Browning">
     <title>Home</title>
     <link rel="stylesheet" href="styles/rafting.css">
@@ -23,18 +23,40 @@
         </div>
     </header>
     <main>
-        <h1 style="z-index: 1;">Rapid Descent Rafting Co</h1>
-        <article style="z-index: 1" class="happy">
-            <img src="images/happy.png" alt="happy employee/client">
-            <p>purpose, motto, creed, etc. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo consectetur
-                veritatis quam magnam illum vel sed unde ipsa recusandae incidunt.</p>
-        </article>
+        <h1 class="title" style="z-index: 1;">Rapid Descent Rafting Co</h1>
         <div class="hero">
-            <img src="images/hero.jpg" alt="beautiful river scene with raft">
+            <img src="images/river-wide3.jpg" alt="beautiful river scene with raft">
         </div>
+        <div class="homegrid">
+            <figure>
+                <img src="images/family2.jpg" alt="family trip">
+                <figcaption>we offer multiple trips geared towards families!</figcaption>
+            </figure>
+            <figure>
+                <img src="images/teamwork.jpg" alt="adventurous rafting">
+                <figcaption>for more extreme adventurers, we offer some excellent options!</figcaption>
+            </figure>
+            <button class="click" onclick="location.href='trips.html'">See all trips we offer here!</button>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Sign up for our newsletter to stay in the know!</legend>
+                <div class="form=item">
+                    <label for="q1">Full Name</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="form=item">
+                    <label for="q2">Email</label>
+                    <input type="text" id="q2" name="q2">
+                </div>
+            </fieldset>
+        </form>
     </main>
     <footer>
-        <p>&copy;2023 | Rapid Descent Rafting Co | *Lauren Browning*</p>
+        <p class="foot">&copy;2023 | Rapid Descent Rafting Co | *Lauren Browning*</p>
+        <a href="images/homewf.png">
+            <img src="images/wficon.png" alt="wireframe">
+        </a>
         <nav class="socials">
             <a href="https://facebook.com">
                 <img src="images/fb.png" alt="facebook">
