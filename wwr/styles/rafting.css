@@ -211,10 +211,10 @@ button:hover {
 .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    font-size: 75%;
-    margin: 20px;
     padding-bottom: 20px;
     border-bottom: solid 3px #E97A0C;
+    font-size: 75%;
+    margin: 20px;
 }
 .homegrid {
     display: grid;
